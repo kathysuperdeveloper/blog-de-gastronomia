@@ -1,0 +1,83 @@
+body {
+    background: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: black;
+}
+
+.header {
+    border-bottom: 1px solid;
+}
+
+.fond {
+    background: #EAB9D5;
+    opacity: 0.9;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+a {
+    color: black;
+}
+
+.padd {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.callout {
+    border: none;
+}
+
+.img-f {
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.historial {
+    list-style: none;
+}
+
+.fi-torso {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.fecha {
+    color: #2980b9;
+}
+
+.public {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.media-object {
+    border: 2px solid #D3E0E2;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+input {
+    -moz-border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    border-radius: 10px;
+}
+
+.fi-like {
+    font-size: 24px;
+}
+
+/* Desktop */
+
+@media all and (min-width: 1000px) {
+    .img-f {
+        min-width: 70px;
+        max-height: 55px;
+    }
+}
